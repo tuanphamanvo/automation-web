@@ -1,12 +1,9 @@
-package lesson16;
+package lesson16Practice;
 
 import driver.DriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import url.Urls;
-
-import java.util.List;
 
 public class HandlingElementIsNotExisting implements Urls {
     private static final By delBtnSel = By.className("added-manually");

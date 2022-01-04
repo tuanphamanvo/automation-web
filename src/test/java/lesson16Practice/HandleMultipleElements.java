@@ -1,4 +1,4 @@
-package lesson16;
+package lesson16Practice;
 
 import driver.DriverFactory;
 import org.openqa.selenium.By;

@@ -10,6 +10,6 @@ public interface Urls {
     String IFRAME = "/iframe";
     String JAVASCRIPT_ALERT = "/javascript_alerts";
     String ADD_REMOVE_ELEMENT = "/add_remove_elements/";
-
-
+    String DYNAMIC_LOADING_1 = "/dynamic_loading/1";
+    String CHECKBOXES = "/checkboxes";
 }
