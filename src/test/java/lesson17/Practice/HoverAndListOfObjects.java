@@ -42,9 +42,7 @@ public class HoverAndListOfObjects implements Urls {
                 int randomUser = rand.nextInt(objectElements.size()+1);
                 actions.moveToElement(objectElements.get(randomUser)).perform();
                 objectElements.get(randomUser).findElement(objectLinkSel).click();
-                String a = driver.getCurrentUrl();
-                String b = "https://the-internet.herokuapp.com/users/".concat(Integer.toString(randomUser+1));
-                if (!a.equals(b)) {
+                if (!driver.getCurrentUrl().equals("https://the-internet.herokuapp.com/users/".concat(Integer.toString(randomUser+1)))) {
                     throw new RuntimeException("ERR: Incorrect URL format");
                 }
 
