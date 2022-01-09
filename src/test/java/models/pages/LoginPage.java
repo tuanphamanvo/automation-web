@@ -1,5 +1,6 @@
 package models.pages;
 
+import lesson18Practice.models.components.NewsLetter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,6 +13,9 @@ public class LoginPage {
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
+    }
+    public NewsLetter newsLetterComponent(){
+        return new NewsLetter(this.driver);
     }
 
     public WebElement userNameEle() {

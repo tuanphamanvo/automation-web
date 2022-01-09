@@ -5,4 +5,5 @@ public interface Urls {
     String REGISTER = "/register";
     String LOGIN = "/login";
     String SEARCH = "/search";
+    String CONTACT_US = "/contactus";
 }
