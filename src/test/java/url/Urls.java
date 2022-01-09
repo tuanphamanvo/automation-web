@@ -12,4 +12,5 @@ public interface Urls {
     String ADD_REMOVE_ELEMENT = "/add_remove_elements/";
     String DYNAMIC_LOADING_1 = "/dynamic_loading/1";
     String CHECKBOXES = "/checkboxes";
+    String SHOP_BASE_URL = "http://demowebshop.tricentis.com/";
 }
