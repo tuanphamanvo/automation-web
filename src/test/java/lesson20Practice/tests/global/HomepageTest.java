@@ -15,10 +15,11 @@ public class HomepageTest {
         driver.get(BASE_URL);
         try {
             HomePage homePage = new HomePage(driver);
-            System.out.println(homePage.footer().informationColumnComponent().headerEle().getText());
-            System.out.println(homePage.footer().customerServiceColumnComponent().headerEle().getText());
-            System.out.println(homePage.footer().myAccountColumnComponent().headerEle().getText());
-            System.out.println(homePage.footer().followUsColumnComponent().headerEle().getText());
+//            System.out.println(homePage.footer().informationColumnComponent().headerEle().getText());
+//            System.out.println(homePage.footer().customerServiceColumnComponent().headerEle().getText());
+//            System.out.println(homePage.footer().myAccountColumnComponent().headerEle().getText());
+//            System.out.println(homePage.footer().followUsColumnComponent().headerEle().getText());
+            System.out.println(homePage.leftPanel().categoriesBlockComponent().getListCategories());
             Thread.sleep(3000);
         } catch (Exception ignore) {
             ignore.printStackTrace();

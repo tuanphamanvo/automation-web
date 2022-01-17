@@ -1,5 +1,6 @@
 package lesson20Practice.models.components.global.leftPanel;
 
+import lesson20Practice.models.ComponentCssSelector;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

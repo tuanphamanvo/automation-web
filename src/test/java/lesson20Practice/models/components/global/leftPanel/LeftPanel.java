@@ -5,7 +5,7 @@ import lesson20Practice.models.ComponentCssSelector;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-@ComponentCssSelector(".side-2")
+@ComponentCssSelector(".master-wrapper-main")
 public class LeftPanel extends Component {
     public LeftPanel(WebDriver driver, WebElement component) {
         super(driver, component);
