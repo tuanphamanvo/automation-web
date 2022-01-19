@@ -8,7 +8,7 @@ import java.util.List;
 public class FooterColumnComponent extends Footer {
 
     private static final By headerSel = By.tagName("h3");
-    private static final By linkSel = By.tagName("li");
+    private static final By linkSel = By.cssSelector("li a");
 
     public FooterColumnComponent(WebDriver driver, WebElement component){
         super(driver,component);

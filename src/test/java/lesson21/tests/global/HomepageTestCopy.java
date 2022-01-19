@@ -7,7 +7,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import static lesson20Practice.url.Urls.BASE_URL;
+
+import static lesson21.url.Urls.BASE_URL;
 
 public class HomepageTestCopy {
 
@@ -45,7 +46,7 @@ public class HomepageTestCopy {
 //            System.out.println(homePage.footer().customerServiceColumnComponent().headerEle().getText());
 //            System.out.println(homePage.footer().myAccountColumnComponent().headerEle().getText());
 //            System.out.println(homePage.footer().followUsColumnComponent().headerEle().getText());
-            System.out.println(homePage.leftPanel().categoriesBlockComponent().getListCategories());
+//            System.out.println(homePage.sideBlocks().categoriesBlockComponent().getListCategories());
             Thread.sleep(3000);
         } catch (Exception ignore) {
             ignore.printStackTrace();

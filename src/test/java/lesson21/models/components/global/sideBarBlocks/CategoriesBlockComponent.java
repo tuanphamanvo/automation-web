@@ -1,6 +1,6 @@
-package lesson20Practice.models.components.global.leftPanel;
+package lesson21.models.components.global.sideBarBlocks;
 
-import lesson20Practice.models.ComponentCssSelector;
+import lesson21.models.ComponentCssSelector;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,8 +9,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 @ComponentCssSelector(".block.block-category-navigation")
-public class CategoriesBlockComponent extends LeftPanelBlockComponent {
-    private static final By categoryLinkSel = By.tagName("li");
+public class CategoriesBlockComponent extends SideBlockComponent {
+    private static final By categoryLinkSel = By.cssSelector("li a");
 
     public CategoriesBlockComponent(WebDriver driver, WebElement component) {
         super(driver, component);
@@ -20,10 +20,14 @@ public class CategoriesBlockComponent extends LeftPanelBlockComponent {
         List<WebElement> categoryElements = component.findElements(categoryLinkSel);
         List<String> listCategories = new ArrayList<>();
         if (!categoryElements.isEmpty()) {
-            for (WebElement ele : categoryElements) {
-                listCategories.add(ele.getText());
-            }
+            categoryElements.forEach(textEle ->{
+                listCategories.add(textEle.getText());
+            });
         }
         return listCategories;
+    }
+
+    public List<WebElement> linkElements(){
+        return component.findElements(categoryLinkSel);
     }
 }

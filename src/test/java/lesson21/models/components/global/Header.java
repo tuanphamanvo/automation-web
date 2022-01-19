@@ -1,7 +1,7 @@
 package lesson21.models.components.global;
 
-import lesson20Practice.models.Component;
-import lesson20Practice.models.ComponentCssSelector;
+import lesson21.models.Component;
+import lesson21.models.ComponentCssSelector;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

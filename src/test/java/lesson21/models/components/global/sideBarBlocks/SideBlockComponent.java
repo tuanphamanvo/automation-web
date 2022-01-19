@@ -1,18 +1,17 @@
-package lesson21.models.components.global.leftPanel;
+package lesson21.models.components.global.sideBarBlocks;
 
-import lesson20Practice.models.ComponentCssSelector;
-import lesson20Practice.models.components.global.leftPanel.LeftPanel;
+import lesson21.models.components.global.MasterContent;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class LeftPanelBlockComponent extends LeftPanel {
+public class SideBlockComponent extends MasterContent {
     private static final By blockTitleSel = By.className("title");
     private static final By linkSel = By.tagName("li");
 
-    public LeftPanelBlockComponent(WebDriver driver, WebElement component) {
+    public SideBlockComponent(WebDriver driver, WebElement component) {
         super(driver, component);
     }
     public WebElement headerEle(){

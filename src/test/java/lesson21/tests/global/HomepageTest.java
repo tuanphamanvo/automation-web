@@ -43,7 +43,7 @@ private void beforeTest(){
 //            System.out.println(homePage.footer().customerServiceColumnComponent().headerEle().getText());
 //            System.out.println(homePage.footer().myAccountColumnComponent().headerEle().getText());
 //            System.out.println(homePage.footer().followUsColumnComponent().headerEle().getText());
-            System.out.println(homePage.leftPanel().categoriesBlockComponent().getListCategories());
+//            System.out.println(homePage.sideBlocks().categoriesBlockComponent().getListCategories());
             Thread.sleep(3000);
         } catch (Exception ignore) {
             ignore.printStackTrace();

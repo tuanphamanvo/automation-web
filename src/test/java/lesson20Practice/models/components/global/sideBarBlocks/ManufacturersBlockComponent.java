@@ -1,4 +1,4 @@
-package lesson20Practice.models.components.global.leftPanel;
+package lesson20Practice.models.components.global.sideBarBlocks;
 
 import lesson20Practice.models.ComponentCssSelector;
 import org.openqa.selenium.By;
@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 @ComponentCssSelector(".block.block-manufacturer-navigation")
-public class ManufacturersBlockComponent extends LeftPanelBlockComponent {
+public class ManufacturersBlockComponent extends SideBlockComponent {
     private static final By categoryLinkSel = By.tagName("li");
 
     public ManufacturersBlockComponent(WebDriver driver, WebElement component) {

@@ -3,7 +3,7 @@ package lesson21.models.pages;
 import lesson20Practice.models.Component;
 import lesson20Practice.models.components.global.Header;
 import lesson20Practice.models.components.global.footer.Footer;
-import lesson20Practice.models.components.global.leftPanel.LeftPanel;
+import lesson20Practice.models.components.global.sideBarBlocks.LeftBlocks;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -21,6 +21,6 @@ public class BasePage  extends Component {
     public Footer footer() {
         return findComponent(Footer.class, driver);
     }
-    public LeftPanel leftPanel(){ return findComponent(LeftPanel.class,driver);}
+    public LeftBlocks leftPanel(){ return findComponent(LeftBlocks.class,driver);}
 
 }
