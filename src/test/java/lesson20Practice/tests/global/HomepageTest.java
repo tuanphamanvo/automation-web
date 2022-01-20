@@ -24,22 +24,16 @@ public class HomepageTest {
             MyAccountColumnComponent myAccountColumnComponent = homePage.footer().myAccountColumnComponent();
             CustomerServiceColumnComponent customerServiceColumnComponent = homePage.footer().customerServiceColumnComponent();
             GenericTestFlow genericTestFlow = new GenericTestFlow(driver);
-            System.out.println("===============Information=====================");
             genericTestFlow.testFooterColumns(informationColumnComponent);
-            System.out.println("===============Follow Us=====================");
             genericTestFlow.testFooterColumns(followUsColumnComponent);
-            System.out.println("===============My Account=====================");
             genericTestFlow.testFooterColumns(myAccountColumnComponent);
-            System.out.println("===============Customer Services=====================");
             genericTestFlow.testFooterColumns(customerServiceColumnComponent);
 
             LeftBlocks leftBlocks = homePage.leftBlocks();
             CategoriesBlockComponent categoriesBlockComponent = leftBlocks.categoriesBlockComponent();
             ManufacturersBlockComponent manufacturersBlockComponent = leftBlocks.manufacturersBlockComponent();
             GenericTestFlow genericTestFlow1 = new GenericTestFlow(driver);
-            System.out.println("===============Category=====================");
             genericTestFlow1.testSideBlocks(categoriesBlockComponent);
-            System.out.println("===============Manufacturer=====================");
             genericTestFlow1.testSideBlocks(manufacturersBlockComponent);
         } catch (Exception ignore) {
             ignore.printStackTrace();

@@ -12,6 +12,7 @@ public class GenericTestFlow {
     }
 
     public void testFooterColumns(FooterColumnComponent footerColumnComponent){
+        System.out.println(footerColumnComponent.headerEle().getText());
         if(!footerColumnComponent.linkElements().isEmpty()){
             footerColumnComponent.linkElements().forEach(link -> {
                 System.out.print(link.getText() + "|");
@@ -20,6 +21,7 @@ public class GenericTestFlow {
         }
     }
     public void testSideBlocks(SideBlockComponent sideBlockComponent){
+        System.out.println(sideBlockComponent.getBlockHeaderText());
         if(!sideBlockComponent.linkElements().isEmpty()){
             sideBlockComponent.linkElements().forEach(link -> {
             System.out.print(link.getText() + "|");
