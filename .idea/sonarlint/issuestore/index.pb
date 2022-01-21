@@ -147,3 +147,6 @@ i
 9src/test/java/lesson20Practice/models/pages/BasePage.java,d\4\d4b561abfc332ae3d5d8b461220ca2114d5752b3
 m
 =src/test/java/lesson20Practice/tests/global/HomepageTest.java,0\e\0ec0a512f4599b6739d63e2148103cd1b3653bd5
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
