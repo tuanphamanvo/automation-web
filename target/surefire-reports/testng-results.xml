@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-21T23:07:38 ICT" name="SuiteName01" finished-at="2022-01-21T23:08:00 ICT" duration-ms="21561">
+    <groups>
+    </groups>
+    <test started-at="2022-01-21T23:07:38 ICT" name="Global Test" finished-at="2022-01-21T23:07:52 ICT" duration-ms="13221">
+      <class name="lesson21Practice.tests.global.HomepageTest02">
+        <test-method signature="testHomePageSideBlock()[pri:0, instance:lesson21Practice.tests.global.HomepageTest02@1d119efb]" started-at="2022-01-21T23:07:46 ICT" name="testHomePageSideBlock" finished-at="2022-01-21T23:07:52 ICT" duration-ms="5565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageSideBlock -->
+      </class> <!-- lesson21Practice.tests.global.HomepageTest02 -->
+      <class name="lesson21Practice.tests.global.HomepageTest">
+        <test-method signature="testHomePageSideBlock()[pri:0, instance:lesson21Practice.tests.global.HomepageTest@6ef888f6]" started-at="2022-01-21T23:07:38 ICT" name="testHomePageSideBlock" finished-at="2022-01-21T23:07:46 ICT" duration-ms="7633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageSideBlock -->
+      </class> <!-- lesson21Practice.tests.global.HomepageTest -->
+    </test> <!-- Global Test -->
+    <test started-at="2022-01-21T23:07:52 ICT" name="Test Item Details" finished-at="2022-01-21T23:08:00 ICT" duration-ms="8320">
+      <class name="lesson21Practice.tests.global.HomepageTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:lesson21Practice.tests.global.HomepageTest@6ef888f6]" started-at="2022-01-21T23:07:38 ICT" name="beforeSuite" finished-at="2022-01-21T23:07:38 ICT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:lesson21Practice.tests.global.HomepageTest@6ef888f6]" started-at="2022-01-21T23:08:00 ICT" name="afterSuite" finished-at="2022-01-21T23:08:00 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- lesson21Practice.tests.global.HomepageTest -->
+      <class name="lesson21Practice.tests.testItem.ComputerTest">
+        <test-method signature="testComputerDetailsPage()[pri:0, instance:lesson21Practice.tests.testItem.ComputerTest@30ee2816]" started-at="2022-01-21T23:07:56 ICT" name="testComputerDetailsPage" finished-at="2022-01-21T23:08:00 ICT" duration-ms="3938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testComputerDetailsPage -->
+      </class> <!-- lesson21Practice.tests.testItem.ComputerTest -->
+      <class name="lesson21Practice.tests.testItem.ApparelAndShoesTest">
+        <test-method signature="testItemDetailsPage()[pri:0, instance:lesson21Practice.tests.testItem.ApparelAndShoesTest@c267ef4]" started-at="2022-01-21T23:07:52 ICT" name="testItemDetailsPage" finished-at="2022-01-21T23:07:56 ICT" duration-ms="4380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testItemDetailsPage -->
+      </class> <!-- lesson21Practice.tests.testItem.ApparelAndShoesTest -->
+    </test> <!-- Test Item Details -->
+  </suite> <!-- SuiteName01 -->
+</testng-results>
