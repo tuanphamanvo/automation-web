@@ -2,6 +2,7 @@ package lesson20Practice.models.components.item;
 
 import lesson20Practice.models.ComponentCssSelector;
 import lesson20Practice.models.Component;
+import lesson20Practice.models.components.item.apparelAndShoes.CustomTshirt;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,8 +15,8 @@ public class BaseItemDetails extends Component {
         super(driver, component);
     }
 
-    public String getItemName(){
-        return component.findElement(itemNameSel).getText();
+    public void getItemName(){
+        System.out.println(component.findElement(itemNameSel).getText());
     }
 
     public String getShortDescription(){
